@@ -5,3 +5,4 @@ Syllabus
 Project
 *.pyc
 temp
+nltk_data
