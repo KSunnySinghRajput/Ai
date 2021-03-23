@@ -1,7 +1,0 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-
-chrome_options = Options()
-chrome_options.add_argument("--user-data-dir=chrome-data")
-driver = webdriver.Chrome(executable_path='driver/chromedriver.exe' ,options=chrome_options)
-driver.get('https://colab.research.google.com/')  # Already authenticated
