@@ -1,0 +1,70 @@
+Working of TfidfVectorizer:
+(Term Frequency Inverse Document Frequency)
+Example:
+doc1='food is # good! _@ 2019'
+doc2='& Food # is * tasty'
+doc3='quality is Good'
+doc4='service is Poor poor means very poor'
+doc5='it is too costly'
+doc6='cheap quality'
+
+
+step-1:change all documents in lower case.
+
+doc1='food is # good! _@ 2019'
+doc2='& food # is * tasty'
+doc3='quality is good'
+doc4='service is poor poor means very poor'
+doc5='it is too costly'
+doc6='cheap quality'
+
+step-2:remove punctuation characters from all docs.
+
+doc1='food is good 2019'
+doc2='food is tasty'
+doc3='quality is good'
+doc4='service is poor poor means very poor'
+doc5='it is too costly'
+doc6='cheap quality'
+
+step-3:remove all single letter words.
+
+doc1='food is good 2019'
+doc2='food is tasty'
+doc3='quality is good'
+doc4='service is poor poor means very poor'
+doc5='it is too costly'
+doc6='cheap quality'
+
+step-4:if stop_words argument is provided,remove all
+stop words from all docs.
+
+doc1='food good 2019'
+doc2='food tasty'
+doc3='quality good'
+doc4='service poor poor means poor'
+doc5='costly'
+doc6='cheap quality'
+
+step-5:collect unique words from corpus
+food,good,2019,tasty,quality,service,poor,means,cheap
+,costly
+
+
+step-6:arrange thsese words in natural order
+2019,cheap,costly,food,good,means,poor,quality,service,tasty
+
+these are feature names.
+
+step-7:for each word find out it's term frequency
+and inverse document frequency
+
+step-8:multiply tf and idf of this word 
+
+	2019 	cheap 	costly 	food 	   good         means 	 poor 		quality  service  tasty
+doc1=	tf*idf   tf*idf tf*idf 	tf*idf    tf*idf	tf*idf	   tf*idf	tf*idf   tf*idf    tf*idf           0
+doc2=	
+doc3=	
+doc4=	
+doc5=	
+doc6=   

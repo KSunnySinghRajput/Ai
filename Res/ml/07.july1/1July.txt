@@ -1,0 +1,64 @@
+Underfitting & Overfitting:
+----------------------------
+
+Bias:
+	high bias--->Underfitting
+	unbias------>Overfitting
+	
+Regularization:
+	it solves overfitting problem by adding
+	some bias(penalty) in model and also reduce
+	coef.
+
+	Ridge & Lasso are two techniques for regulerization
+	Ridge(a.k.a. L2)
+	Lasso(a.k.a L1)
+Variance:
+--------
+variability(spread) of prediction of testing 
+sample over different subset of a dataset.
+
+we should try to keep low variance
+
+
+Ideal Statement for a Model:
+----------------------------
+	low bias and low variance
+ 
+
+Logistic Regression:
+---------------------
+>it is a model to solve classification problem
+>generally we use this model in binary classification
+>it internally uses linear regression and a 
+probability function to predict a class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

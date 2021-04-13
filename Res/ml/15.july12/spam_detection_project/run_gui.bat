@@ -1,0 +1,1 @@
+activate && python predict_spam_gui.py

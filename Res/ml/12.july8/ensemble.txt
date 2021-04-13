@@ -1,0 +1,13 @@
+Ensemble models:
+----------------
+it is a model that internally uses group of models
+to make prediction.
+
+In sklearn we have multiple ensemble models
+
+>RandomForest-->group of decision trees
+>Boosting Models
+	AdaBoost
+	GradientBoost
+	etc
+>VotingClassifier--->group of any type of models 

@@ -1,0 +1,25 @@
+Pandas:
+------
+>it is an open source library/package for python
+programming to work with structured,labeled data.
+
+>it provides many objects like :
+	DataFrame
+	Series
+	Panel
+>DataFrame:
+	.object of this type represents structured,
+	labeled data.
+	.we may create dataframe from csv,excel,json
+	html,database,hadoop, etc.
+	.provides ready made function/methods for
+	data preprocessing/cleaning.
+
+
+
+
+
+
+
+	
+
