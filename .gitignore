@@ -6,9 +6,10 @@ Project
 *.pyc
 temp
 nltk_data
+
 4.DataProcessing
 5.AI
 6.DL_NN_With_TF
-7.NLP
-8.Speech
+8.NLP
+7.Speech
 9.ComputerVision
