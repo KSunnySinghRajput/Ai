@@ -1,0 +1,10 @@
+Quality,QualType,Resolution(px),FRate(fps),	Bitrate (average),BitrateType,bit_dis,	Data used per minute,	Data used per 60 minutes,Dat use type,
+144,,256x144,30,80-100, Kbps,0.5-1.5, MB,30-90, MB,
+240,,426x240,30,300-700, Kbps,3-4.5 ,MB,180-250, MB,
+360,,640x360,30,400-1000, Kbps,5-7.5, MB,300-450, MB,
+480,,854x480,30,500-2000, Kbps,8-11 ,MB,480-660, MB,
+720 ,(HD),1280x720,30-60,1.5-6.0, Mbps,20-45, MB,1.2-2.7, GB,
+1080 ,(FHD),1920x1080,30-60,3.0-9.0, Mbps,50-68 ,MB,2.5-4.1, GB,
+1440 ,(QHD),2560x1440,30-60,6.0-18.0 ,Mbps,45-135 ,MB,2.7-8.1, GB
+2160 ,(4k) (UHD),3840x2160,30-60,13.0-51.0, Mbps,95-385 ,MB,5.5-23.0, GB,
+4320,(8k) (FUHD),7680x4320,30-60,20-50 ,Mbps(estimated @30FPS),150-375, MB (estimated at 30FPS),9.0-22.5 ,GB (estimated @30FPS),
